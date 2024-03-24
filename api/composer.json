@@ -1,0 +1,24 @@
+{
+    "name": "dudematthew/gm-festival",
+    "description": "Quick PHP app made for my one shot RPG session",
+    "version": "1.0.0",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "doctrine/orm": "^3.1",
+        "symfony/cache": "^7.0",
+        "bramus/router": "^1.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dudematthew\\GmFestival\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dudematthew"
+        }
+    ],
+    "minimum-stability": "stable"
+}
